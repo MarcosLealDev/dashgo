@@ -28,6 +28,12 @@ const options = {
   },
   xaxis: {
     type: 'datetime',
+    axisBorder: {
+      color: theme.colors.gray[600],
+    },
+    axisTicks: {
+      color: theme.colors.gray[600],
+    },
     categories: [
       '2021-03-18T00:00:00.000Z',
       '2021-03-19T00:00:00.000Z',
@@ -37,12 +43,6 @@ const options = {
       '2021-03-23T00:00:00.000Z',
       '2021-03-24T00:00:00.000Z',
     ],
-    axisBorder: {
-      color: theme.colors.gray[600],
-    },
-    axisTicks: {
-      color: theme.colors.gray[600],
-    },
   },
 
   fill: {
@@ -52,13 +52,13 @@ const options = {
       shade: 'dark',
       opacityFrom: 0.7,
       opacityTo: 0.3,
-    }
+    },
   },
 
 };
 
 const series = [
-  { name: 'series1', data: [31, 120, 10, 28, 51, 18, 109] }
+  { name: 'series1', data: [31, 120, 10, 28, 61, 18, 109] }
 ];
 
 
