@@ -27,13 +27,8 @@ const options = {
     enabled: false,
   },
   xaxis: {
-    type: 'datetime',
-    axisBorder: {
-      color: theme.colors.gray[600],
-    },
-    axisTicks: {
-      color: theme.colors.gray[600],
-    },
+    type: "datetime",
+
     categories: [
       '2021-03-18T00:00:00.000Z',
       '2021-03-19T00:00:00.000Z',
@@ -72,7 +67,7 @@ export default function Dashboard() {
 
         <SimpleGrid flex="1" gap="4" minChildWidth="320px" align="flex-start">
           <Box
-            p="8"
+            p={["6", "8"]}
             bg="gray.800"
             borderRadius={8}
             pb="4"
